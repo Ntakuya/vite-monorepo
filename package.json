@@ -1,0 +1,8 @@
+{
+  "name": "vite-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Ntakuya/vite-monorepo.git",
+  "license": "MIT",
+  "private": true
+}
