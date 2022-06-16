@@ -1,15 +1,22 @@
 {
+  "private": true,
   "name": "nuxt",
   "version": "1.0.0",
   "description": "nuxtv3 package with pinio",
-  "keywords": [
-    "nuxt",
-    "vue"
-  ],
   "author": "Gma_Gama <nagahama.takuya@outlook.jp>",
   "homepage": "https://github.com/Ntakuya/vite-monorepo#readme",
   "license": "MIT",
   "main": "lib/nuxt.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.4"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,14 +27,14 @@
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "git+https://github.com/Ntakuya/vite-monorepo.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
+   "bugs": {
     "url": "https://github.com/Ntakuya/vite-monorepo/issues"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
