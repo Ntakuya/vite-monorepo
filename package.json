@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "git@github.com:Ntakuya/vite-monorepo.git",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "lerna": "lerna"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
